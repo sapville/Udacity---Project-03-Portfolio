@@ -6,9 +6,9 @@ body {
 	font-family: Lato, sans-serif;
 }
 
-._logo {
+/* ._logo {
 	margin-top: 20px;
-}
+} */
 
 ._img-featured-work {
 	cursor: help;
@@ -22,7 +22,7 @@ body {
 	margin-bottom: 20px;
 }
 
-@media screen and (max-width: 320px) {
+/* @media screen and (max-width: 320px) {
 	._name {
 		font-size: 26px;
 	}
@@ -35,10 +35,11 @@ body {
 	._work-title {
 		font-size: 17px;
 	}
-}
+} */
 
 @media screen and (max-width: 768px) {
-	._featured-work {
+	._featured-work-title {
 		text-align: center;
+		margin-top: 0;
 	}
 }
