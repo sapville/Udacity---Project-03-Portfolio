@@ -1,25 +1,48 @@
-* {
+/* * {
 	outline: red solid 1px;
+} */
+body {
+	color: #2d3c49;
 }
 
-body {
-	font-family: Lato, sans-serif;
+hr {
+	border-top: 2px solid #7d97ad;
 }
 
 ._logo {
 	margin-top: 20px;
 }
 
+.title {
+	font-family: Lato, sans-serif;
+}
+
+._name {
+	font-weight: 100;
+}
+
+._featured-work-title {
+	color: #7d97ad;
+}
+
+._featured-work-title, ._work-div, .modal-content {
+	font-family: Montserrat, sans-serif;
+}
+
 ._img-featured-work {
 	cursor: help;
 }
 
-._modal-description {
-	margin-top: 10px;
+._work-title, .modal-title{
+	font-size: 28px;
 }
 
 ._work-div {
 	margin-bottom: 20px;
+}
+
+._modal-description {
+	margin-top: 10px;
 }
 
 @media screen and (max-width: 320px) {
@@ -33,7 +56,7 @@ body {
 		font-size: 20px;
 	}
 	._work-title {
-		font-size: 17px;
+		font-size: 20px;
 	}
 }
 
@@ -42,4 +65,11 @@ body {
 		text-align: center;
 		margin-top: 0;
 	}
+}
+
+@media screen and (min-width: 992px) {
+	.container {
+		width: 992px;
+		margin: auto;
+	}	
 }
