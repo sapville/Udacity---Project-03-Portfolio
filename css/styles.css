@@ -3,12 +3,9 @@
 }
 
 body {
+	padding-top: 50px;
 	font-family: Lato, sans-serif;
 }
-
-/* ._logo {
-	margin-top: 20px;
-} */
 
 ._img-featured-work {
 	cursor: help;
@@ -21,21 +18,6 @@ body {
 ._work-div {
 	margin-bottom: 20px;
 }
-
-/* @media screen and (max-width: 320px) {
-	._name {
-		font-size: 26px;
-	}
-	._motto {
-		font-size: 13px;
-	}
-	._featured-work-title {
-		font-size: 20px;
-	}
-	._work-title {
-		font-size: 17px;
-	}
-} */
 
 @media screen and (max-width: 768px) {
 	._featured-work-title {
