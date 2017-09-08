@@ -1,7 +1,7 @@
 /* * {
 	outline: red solid 1px;
 } */
-body {
+body, .modal-content {
 	color: #2d3c49;
 }
 
