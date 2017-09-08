@@ -37,7 +37,7 @@ body {
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 	._featured-work-title {
 		text-align: center;
 		margin-top: 0;
