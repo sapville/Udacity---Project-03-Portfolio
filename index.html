@@ -7,8 +7,11 @@
 <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/styles.css">
 <link
-	href="https://fonts.googleapis.com/css?family=Lato:100,300|Montserrat"
-	rel="stylesheet">
+	rel="stylesheet"
+	href="https://fonts.googleapis.com/css?family=Lato:100,300">
+<link
+	rel="stylesheet"
+	href="https://fonts.googleapis.com/css?family=Montserrat">
 <script type="text/javascript"
 	src="bootstrap/js/jquery-3.2.1.slim.min.js"></script>
 <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
@@ -31,18 +34,18 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-12 hidden-xs">
+			<div class="col-xs-12">
 				<img alt="central_picture" src="img/peace.jpg"
 					class="img-responsive center-block">
 			</div>
 		</div>
-		<section class="row">
+		<div class="row">
 			<div class="col-xs-12">
 				<h2 class="_featured-work-title">Featured work</h2>
 			</div>
-		</section>
+		</div>
 		<section class="row">
-			<div class="col-sm-4 text-center _work-div">
+			<article class="col-sm-4 text-center _work-div">
 				<img alt="Go"
 					src="http://i2.wp.com/blog.udacity.com/wp-content/uploads/2016/03/56df2490a351d802222160.gif"
 					width="400"
@@ -53,8 +56,8 @@
 				<a
 					href="https://sapville.github.io/Udacity/Udacity/FEND/Part1/Project01_Mockup_to_Article/"
 					target="blank">check it now</a>
-			</div>
-			<div class="col-sm-4 text-center _work-div">
+			</article>
+			<article class="col-sm-4 text-center _work-div">
 				<img alt="The Beast" src="img/beast.jpg"
 					class="img-responsive  center-block
 					_img-featured-work"
@@ -63,15 +66,15 @@
 				<a
 					href="https://sapville.github.io/Udacity/Udacity/FEND/Part1/Project02_Animal_Trading_Cards/"
 					target="blank">check it now</a>
-			</div>
-			<div class="col-sm-4 text-center _work-div">
+			</article>
+			<article class="col-sm-4 text-center _work-div">
 				<img alt="The future" src="img/future.jpg"
 					class="img-responsive  center-block
 					_img-featured-work"
 					data-toggle="modal" data-target="#futureModal">
 				<h3 class="text-uppercase _work-title">The Future</h3>
 				<a href="#future_link" id="future_link">nothing to check as yet</a>
-			</div>
+			</article>
 		</section>
 	</div>
 
@@ -83,14 +86,14 @@
 	<div class="modal fade" id="goModal" tabindex="-1" role="dialog">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
-				<div class="modal-header">
+				<header class="modal-header">
 					<button type="button" class="close" data-dismiss="modal"
 						aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
 					<h4 class="modal-title text-uppercase text-center">Go! Go! Go!</h4>
-				</div>
-				<div class="modal-body">
+				</header>
+				<section class="modal-body">
 					<div class="row">
 						<div class="col-sm-12">
 							<img alt="Go"
@@ -104,7 +107,7 @@
 								article.</p>
 						</div>
 					</div>
-				</div>
+				</section>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 				</div>
@@ -118,14 +121,14 @@
 	<div class="modal fade" id="beastModal" tabindex="-1" role="dialog">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
-				<div class="modal-header">
+				<header class="modal-header">
 					<button type="button" class="close" data-dismiss="modal"
 						aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
 					<h4 class="modal-title text-uppercase text-center">The Beast</h4>
-				</div>
-				<div class="modal-body">
+				</header>
+				<section class="modal-body">
 					<div class="row">
 						<div class="col-sm-12">
 							<img alt="appify" src="img/beast.jpg"
@@ -136,7 +139,7 @@
 								advanced ones such as animation and transition.</p>
 						</div>
 					</div>
-				</div>
+				</section>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 				</div>
@@ -150,14 +153,14 @@
 	<div class="modal fade" id="futureModal" tabindex="-1" role="dialog">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
-				<div class="modal-header">
+				<header class="modal-header">
 					<button type="button" class="close" data-dismiss="modal"
 						aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
 					<h4 class="modal-title text-uppercase text-center">The Future</h4>
-				</div>
-				<div class="modal-body">
+				</header>
+				<section class="modal-body">
 					<div class="row">
 						<div class="col-sm-12">
 							<img alt="bokeh" src="img/future.jpg"
@@ -166,7 +169,7 @@
 								time for the future isn't it?</p>
 						</div>
 					</div>
-				</div>
+				</section>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 				</div>
