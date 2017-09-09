@@ -1,6 +1,7 @@
-* {
+/* * {
 	outline: red solid 1px;
-}
+} */
+
 body, .modal-content {
 	color: #2d3c49;
 }
@@ -32,6 +33,14 @@ hr {
 
 ._img-featured-work {
 	cursor: help;
+}
+
+._image-go {
+	margin: 12.5px auto;
+}
+
+._go-title {
+	margin-top: 30px;
 }
 
 ._work-title, .modal-title{
