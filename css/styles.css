@@ -9,6 +9,7 @@ hr {
 	border-top: 3px solid #7d97ad;
 }
 
+/* Header */
 ._logo {
 	margin-top: 20px;
 }
@@ -22,6 +23,7 @@ hr {
 	font-weight: 100;
 }
 
+/* Content */
 ._featured-work-title {
 	color: #7d97ad;
 }
@@ -50,10 +52,12 @@ hr {
 	margin-bottom: 20px;
 }
 
+/* Modals */
 ._modal-description {
 	margin-top: 10px;
 }
 
+/* Queries */
 @media screen and (max-width: 320px) {
 	._name {
 		font-size: 26px;
