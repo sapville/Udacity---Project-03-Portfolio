@@ -10,73 +10,72 @@ hr {
 }
 
 /* Header */
-._logo {
+.c-logo {
 	margin-top: 20px;
 }
 
-._title {
+.c-title {
 	font-family: Lato, sans-serif;
 }
 
-._name {
+.c-name {
 	font-size: 40px;
 	font-weight: 100;
 }
 
 /* Content */
-._featured-work-title {
+.c-featured-work-title {
 	color: #7d97ad;
 }
 
-._featured-work-title, ._work-div, .modal-content {
+.c-featured-work-title, .c-work-div, .modal-content {
 	font-family: Montserrat, sans-serif;
 }
 
-._img-featured-work {
+.c-img-featured-work {
 	cursor: help;
 }
 
-._image-go {
+.c-image-go {
 	margin: 12.5px auto;
 }
 
-._go-title {
+.c-go-title {
 	margin-top: 30px;
 }
 
-._work-title, .modal-title {
+.c-work-title, .modal-title {
 	font-size: 28px;
 }
 
-._work-div {
+.c-work-div {
 	margin-bottom: 20px;
 }
 
 /* Modals */
-._modal-description {
+.c-modal-description {
 	margin-top: 10px;
 }
 
 /* Queries */
 @media screen and (max-width: 320px) {
-	._name {
+	.c-name {
 		font-size: 26px;
 	}
-	._motto {
+	.c-motto {
 		font-size: 13px;
 	}
-	._featured-work-title {
+	.c-featured-work-title {
 		font-size: 20px;
 	}
-	._work-title {
+	.c-work-title {
 		font-size: 20px;
 	}
 }
 
 @media screen and (max-width: 767px) {
-	._featured-work-title {
+	.c-featured-work-title {
 		text-align: center;
-		margin-top: 0;
 	}
 }
 
